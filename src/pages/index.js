@@ -42,6 +42,7 @@ class BlogIndex extends React.Component {
             </article>
           )
         })}
+        <a href="content/resume.html">About</a>
       </Layout>
     )
   }
