@@ -42,7 +42,7 @@ class BlogIndex extends React.Component {
             </article>
           )
         })}
-        <a href="content/resume.html">About</a>
+        <a href="http://natejcho-resume.s3-website-us-east-1.amazonaws.com/">About</a>
       </Layout>
     )
   }
