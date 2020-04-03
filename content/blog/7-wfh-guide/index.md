@@ -19,10 +19,10 @@ WFH sounds great in a bubble: no commute time, less distractions, better food op
 - More corporate oversight
 - Extended 9-5+ schedules
  
+ ![ryan](https://media.giphy.com/media/G1DXibeazUgY8/source.gif)
 
 So like Ryan Gosling once said, "It's going to be really hard; we're gonna have to work at this everyday, but I want to do that because I want you. I want all of you, forever, everyday. You and me... everyday.” Ok maybe not that last bit.
 
- 
 
 # 2. Shameless Transparency
 When working remotely, the default assumption is **nothing**. If they can't see you at your desk, your coworkers and manager are going to assume you went down a YouTube rabbit-hole and ended up in that weird part. This especially speaks true if it takes you an hour to respond on Symphony. *It is now your job* to shamelessly broadcast what you're doing and what you did. This goes beyond the daily standup where everyone is half-tuned in. Let your team know when you do a deploy, fix a bug (no matter how minor), merge an MR. Doing so will help maintain your "good worker" status and will give your manager some ease of mind 🙂.

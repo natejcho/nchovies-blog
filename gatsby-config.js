@@ -13,7 +13,6 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
-        name: `blog`,
       },
     },
     {
@@ -38,6 +37,16 @@ module.exports = {
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
+          },
+          {
+            resolve: 'gatsby-remark-emoji', // <-- this adds emoji
+            options: {
+              // default emojiConversion --> shortnameToUnicode
+              emojiConversion: 'shortnameToUnicode',
+              // when true, matches ASCII characters (in unicodeToImage and shortnameToImage)
+              // e.g. ;) --> 😉
+              ascii: false,
+            }
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
@@ -73,23 +82,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-          resolve: 'gatsby-remark-emoji', // <-- this adds emoji
-          options: {
-            // default emojiConversion --> shortnameToUnicode
-            emojiConversion: 'shortnameToUnicode',
-            // when true, matches ASCII characters (in unicodeToImage and shortnameToImage)
-            // e.g. ;) --> 😉
-            ascii: false,
-          }
-        },
-        ]
-      }
     },
   ],
 }

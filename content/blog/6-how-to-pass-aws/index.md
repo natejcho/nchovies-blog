@@ -17,7 +17,7 @@ All resources mentioned will be pinned to the bottom.
 # Motivation
 [Forbes wrote an article](https://www.forbes.com/sites/louiscolumbus/2019/07/28/aws-certifications-increase-tech-pay-up-to-12k-a-year/#6c204f04189…) showing that there is financial incentive (~ $12k). So I'm hoping for a raise after all this 🤑. #yearoflearning
 
-![shmoney](./hmoney.jpeg)
+![shmoney](./shmoney.jpeg)
 
 # A Cloud Guru
 ![acloudguru_logo](./acloudguru_logo.png)
