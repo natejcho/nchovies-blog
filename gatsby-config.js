@@ -74,5 +74,22 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+          resolve: 'gatsby-remark-emoji', // <-- this adds emoji
+          options: {
+            // default emojiConversion --> shortnameToUnicode
+            emojiConversion: 'shortnameToUnicode',
+            // when true, matches ASCII characters (in unicodeToImage and shortnameToImage)
+            // e.g. ;) --> 😉
+            ascii: false,
+          }
+        },
+        ]
+      }
+    },
   ],
 }

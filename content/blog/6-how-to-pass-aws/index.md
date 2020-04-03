@@ -1,22 +1,64 @@
 ---
-title: Writing Good Open Source
-date: "2019-11-03T22:12:03.284Z"
+title: How to Pass the AWS Certified Solutions Architect – Associate Exam
+date: "2020-03-24"
 description: "Guide to Passing the AWS Solutions Architect Associate Certification"
 ---
-<!-- 
-My company has a private git server, on which there's multiple public repository. I'm an admin on one and the biggest hurdle to growth is finding developers willing to contribute. Our repo has about 30 developers following but contributions are made by 2 people, one of them myself, on a regular basis. THere is a revolving door of enginneers submiting a PR when it comes to resolving an issue or adding a feature that supports there application, but interest is waning.
 
-Such an experience is common among all open source projects. If you take a look at React repo, you'll see hundreds of issues with comments like "i'd like to take this on" or "please assign me this issue" but maybe only a dozen open MRs at a time. WHy is this?
+<p '>
+<img src='./aws_logo.png' width='150' />
+</p>
+# Intro
+Amazon Web Services Solutions Architect exam "is intended for individuals who perform a solutions architect role and have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS". It covers services such as S3, EC2, and VPC.
 
-Open source is a buzzword and I think most people love the idea of it, but when it comes to actually doing it or contributing, people are much less enthusiastic.
+Disclaimer: **I did not take the exam** :sweat_smile:. I was scheduled to take the exam right when coronavirus ramped up in the US and I have not taken it officially yet. The exam will go through an official change after March 22, 2020 so I'm afraid I won't be taking it for a month or so at least.
 
-One issue is how intimidating it is. My repo suffers from having very bespoke PR contributing guidelines, and those guidelines aren't all held in one location. some are included in the PR template, like ensuring you bump the version, or add to the changelog. Some are included in the README.md, like how to start the application. Linting is part of our CI check, but besides the script in our package.json, there is no indication of such until your pipeline fails. Versioning is complicated, we have a nested project structure so it can be hard to find which package.json version to bump. and the instructions for which can only be found in the git wiki (not in the README or the PR template).
+If your goal is to learn about AWS then this post isn't for you. As a matter of fact, this certification probably isn't for you. One thing I learned in chasing this certification is that the best way to learn about AWS is by using it. Find roles in your current team or create a side project that leverages AWS platform.
 
-When you're a new developer on a team it can be really hard to pickup all the nuances or paradigms the team. Some teams prefer backtick for string logic, some prefer concatination. No matter how many articles you read on not taking code reviews personally, or how the code is a shared project, and that individual's contributions are not jsut theyre own and thus there is no blame or fault. Those kind of things can only be learned with time and experience, and even still yet. Something more experienced devs need to understand is that, as a new dev, getting a hundred comments on your PR is discouraging, and that's the last thing we want in good open source projects.
+All resources mentioned will be pinned to the bottom.
 
-To maintain a good open source project, we need to streamline the onboard process
+# Motivation
+[Forbes wrote an article](https://www.forbes.com/sites/louiscolumbus/2019/07/28/aws-certifications-increase-tech-pay-up-to-12k-a-year/#6c204f04189…) showing that there is financial incentive (~ $12k). So I'm hoping for a raise after all this 🤑. #yearoflearning
 
-- All necessary info should go in the README.md it should be short organized yet exhaustive. there shouldn't be any doubt on where to learn how to develope, start or contribute to a repo, and it should be up to date
-- First time contributers should be welcomed warmly. A DM does wonders, face to face is amazing if possible. Letting them know we're both warm squishy things trying to figure this out helps. and will be amazing for your reputation.
-- loosen up on dogmatic principles. Linting is nice, but it should aid in developement. some people get crazy about standards and practice, and the overall net effect is that it discourages contribution. This is wher some pre commit/push hooks and a Strong CI/CL pipeline does wonders
-- 'Good First Issues' - last point. Whenever I look at a new repo to contribute to I know the first thing I look at is Good First Issues, having such a label is a really soft entry point for most develoeprs. keeping these issues well groomed, exhaustive, and well responded It can do wonders for your project, if you can afford the overhead. -->
+<p '>
+<img src='./shmoney.jpeg' width='300' />
+</p>
+
+# A Cloud Guru
+<p '>
+<img src='./acloudguru_logo.png' width='350' />
+</p>
+Ryan Kronenburg's course has become the gold standard in AWS certification. Forget his site [acloud.guru](https://acloud.guru/), just purchase the course through [Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate/). While you're at it purchase the [extra exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-practice-tests) as well. Courses on Udemy go on sale all the time. I was lucky enough to have my team pay for the course, but still you should be able to purchase the full course for the cost of one month of acloud.guru.
+
+Go through the course, I listened at 1.25x speed and it took me ~10hrs to finish, which includes watching the videos, following along in the labs and taking the quizzes. Some people I talk to listened at 1.5x speed, up to you :devil:. The goal here is to get fundamental knowledge on all things tested for the certification. I wouldn't bother too much remembering everything in detail.
+
+The course is great, it covers everything you'll need to know to pass the exam and get familiar with AWS platform. At the end Ryan will walk you through registering for the exam.
+
+# Methodology
+Once you finish the course, take one of the provided practice exams. You'll likely fail with an abysmal score :sweat_smile:. Don't be discouraged. Udemy allows you to filter all the questions you missed and you can go through them and read the explanation on why you got it wrong. Once you've reviewed it all. **Immediately** take the course again. The best way to retain knowledge is to stress test it. This may feel like cheating, but there's lots of [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4235419/) to back up the validity of this approach to learning. Again, go through the missed questions and then immediately retake the exam. Repeat this until you get AT LEAST a passing score. Then when you have time, repeat the process with the second exam.
+<p '>
+<img src='./practice_test.png' width='450' />
+</p>
+If you haven't already, purchase the [extra exams course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-practice-tests). Repeat the process with the first exam in this pack. You will notice the format is a little different, it's written to mirror the certification exam. By this point you should have a good understanding of what areas you need work on. In this new exam course, you can even filter the questions by topic so you can quantify the areas you're weak in. Go back to the course and rewatch the Topic Review Lesson in each topic you struggle with, and I recommend watching the entire section over if you have a particularly weak area. Finish up by retaking the topic quiz.
+
+Now it's home stretch. Take the second exam in the course, and repeat the process. You should notice your performance go way up by now, it might take only 1 or 2 tries to get a passing score on this exam. Ryan recommends Reading the FAQs for S3, VPC, and ELB the day of the exam. I would argue you should do it night before, as studies show, sleep plays a big role in converting short term memories into accessible long term ones. The morning of the exam, take the final practice test in the course. This is a bit of a gamble, if you tank, your confidence will be shot, but if you do well, you'll feel comfortable and at ease when you take the exam, which imo is like 30% of all test taking. If you follow my guidance you won't tank.
+
+At this point you're ready to get certified. Study what you feel like you need to, but imo if you didn't put in the work before, you're not going to improve your chances by cramming the last hour before.
+
+# Closing Thoughts
+This is not an advertisement for ACloudGuru. The principles outlined can be followed with **any** online course. Gain a cursory knowledge of the material > test your knowledge > review your faults > test your knowledge again. AWS offers 20$ practice exams that anyone can take, it's a great way to prepare for the exam, especially if you decide not to opt in to the ACloudGuru course.
+
+Special thanks to Ganesh Swaminathan who has informed me that you can now take the exam online, expect an update soon.
+
+I'll link my [LinkedIn](https://www.linkedin.com/in/nathaniel-cho-99656b125/) below. If you ever see "AWS Solutions Architect Associate Certified" then you'll know my advice works. If not, then take guide with a grain of salt :winking_face:
+
+# Links
+- [Forbes Article on AWS](https://www.forbes.com/sites/louiscolumbus/2019/07/28/aws-certifications-increase-tech-pay-up-to-12k-a-year/#6c204f04189…)
+- [ACloudGuru Udemy Course](https://www.udemy.com/course/aws-certified-solutions-architect-associate/)
+- [Practice Tests](https://www.udemy.com/course/aws-certified-solutions-architect-associate-practice-tests)
+- [ACloudGuru](https://acloud.guru/)
+- [Strengthening concept learning by repeated testing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4235419/)
+- [Sleep helps build long-term memories | MIT News](http://news.mit.edu/2009/memories-0624)
+- [ELB FAQ](https://aws.amazon.com/elasticloadbalancing/faqs/)
+- [S3 FAQ](https://aws.amazon.com/s3/faqs/)
+- [VPC FAQ](https://aws.amazon.com/vpc/faqs/)
+- [LinkedIn](https://www.linkedin.com/in/nathaniel-cho-99656b125/)

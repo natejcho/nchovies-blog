@@ -2,7 +2,7 @@
   "name": "nchovies-blog",
   "private": true,
   "description": "A blog where I can show you what I got",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Nathaniel Cho <natejcho@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
