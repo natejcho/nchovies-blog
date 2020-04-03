@@ -4,9 +4,7 @@ date: "2020-03-24"
 description: "Guide to Passing the AWS Solutions Architect Associate Certification"
 ---
 
-<p '>
-<img src='./aws_logo.png' width='150' />
-</p>
+![aws](./aws_logo.png)
 # Intro
 Amazon Web Services Solutions Architect exam "is intended for individuals who perform a solutions architect role and have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS". It covers services such as S3, EC2, and VPC.
 
@@ -19,14 +17,10 @@ All resources mentioned will be pinned to the bottom.
 # Motivation
 [Forbes wrote an article](https://www.forbes.com/sites/louiscolumbus/2019/07/28/aws-certifications-increase-tech-pay-up-to-12k-a-year/#6c204f04189…) showing that there is financial incentive (~ $12k). So I'm hoping for a raise after all this 🤑. #yearoflearning
 
-<p '>
-<img src='./shmoney.jpeg' width='300' />
-</p>
+![shmoney](./hmoney.jpeg)
 
 # A Cloud Guru
-<p '>
-<img src='./acloudguru_logo.png' width='350' />
-</p>
+![acloudguru_logo](./acloudguru_logo.png)
 Ryan Kronenburg's course has become the gold standard in AWS certification. Forget his site [acloud.guru](https://acloud.guru/), just purchase the course through [Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate/). While you're at it purchase the [extra exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-practice-tests) as well. Courses on Udemy go on sale all the time. I was lucky enough to have my team pay for the course, but still you should be able to purchase the full course for the cost of one month of acloud.guru.
 
 Go through the course, I listened at 1.25x speed and it took me ~10hrs to finish, which includes watching the videos, following along in the labs and taking the quizzes. Some people I talk to listened at 1.5x speed, up to you :devil:. The goal here is to get fundamental knowledge on all things tested for the certification. I wouldn't bother too much remembering everything in detail.
@@ -35,9 +29,9 @@ The course is great, it covers everything you'll need to know to pass the exam a
 
 # Methodology
 Once you finish the course, take one of the provided practice exams. You'll likely fail with an abysmal score :sweat_smile:. Don't be discouraged. Udemy allows you to filter all the questions you missed and you can go through them and read the explanation on why you got it wrong. Once you've reviewed it all. **Immediately** take the course again. The best way to retain knowledge is to stress test it. This may feel like cheating, but there's lots of [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4235419/) to back up the validity of this approach to learning. Again, go through the missed questions and then immediately retake the exam. Repeat this until you get AT LEAST a passing score. Then when you have time, repeat the process with the second exam.
-<p '>
-<img src='./practice_test.png' width='450' />
-</p>
+
+![practice_test](./practice_test.png)
+
 If you haven't already, purchase the [extra exams course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-practice-tests). Repeat the process with the first exam in this pack. You will notice the format is a little different, it's written to mirror the certification exam. By this point you should have a good understanding of what areas you need work on. In this new exam course, you can even filter the questions by topic so you can quantify the areas you're weak in. Go back to the course and rewatch the Topic Review Lesson in each topic you struggle with, and I recommend watching the entire section over if you have a particularly weak area. Finish up by retaking the topic quiz.
 
 Now it's home stretch. Take the second exam in the course, and repeat the process. You should notice your performance go way up by now, it might take only 1 or 2 tries to get a passing score on this exam. Ryan recommends Reading the FAQs for S3, VPC, and ELB the day of the exam. I would argue you should do it night before, as studies show, sleep plays a big role in converting short term memories into accessible long term ones. The morning of the exam, take the final practice test in the course. This is a bit of a gamble, if you tank, your confidence will be shot, but if you do well, you'll feel comfortable and at ease when you take the exam, which imo is like 30% of all test taking. If you follow my guidance you won't tank.
